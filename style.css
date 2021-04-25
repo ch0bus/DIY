@@ -26,8 +26,8 @@
 .header li {
 	border: -1px solid red;
 	margin-left: 50px;
-	line-height: 50px;											/* center y */
-	display: inline-block;										/* !!! */
+	line-height: 50px;
+	display: inline-block;
 }
 
 body {
@@ -42,15 +42,14 @@ body {
 
   margin: 10px 0% 10px 0%;
   padding: 10px 5% 10px 5%;
-  border: 3px solid blue;
-	background-color: #red;
+  border: 3px solid gray;
 }
 .footer{
   height: 200px;
 
   margin: 30px 0% 10px 0%;
   padding: 10px 5% 10px 5%;
-  border: 3px solid blue;
+  border: 3px solid gray;
 	background-color: black;
 }
 .logo{
@@ -68,26 +67,51 @@ body {
   opacity: 0.8;
   margin: 10px 0% 10px 0%;
   padding: 10px 5% 10px 5%;
-  border: 3px solid blue;
+  border: 3px solid gray;
 	background-color: black;
 }
+.wrapper h2 { color: yellow; }
+.wrapper p { color: white; }
 .box_about{
+  padding-top: 50px;
   background-image: url(images/about.png);
   background-repeat: no-repeat;
 	background-position: center top;
   margin-bottom: 10px;
   height: 400px;
-  border: 3px solid yellow;
-
+  #border: 3px solid yellow;
 }
 .box_press{
+  padding-top: 50px;
+  background-image: url(images/about.png);
+  background-repeat: no-repeat;
   background-image: url(images/press.png);
   background-repeat: no-repeat;
 	background-position: center top;
   margin-bottom: 10px;
   height: 400px;
-  border: 3px solid yellow;
-
+  #border: 3px solid yellow;
+}
+.box_app1{
+  margin: 10px 10px 10px 20px;
+  border: 5px solid yellow;
+  float: left;
+	width: 30%;
+	height: 70%;
+}
+.box_app2{
+  margin: 10px;
+  border: 5px solid yellow;
+  float: left;
+	width: 30%;
+	height: 70%;
+}
+.box_app3{
+  margin: 10px;
+  border: 5px solid yellow;
+  float: left;
+	width: 30%;
+	height: 70%;
 }
 .box_contactus{
   background-image: url(images/contactus.png);
@@ -95,6 +119,5 @@ body {
 	background-position: center top;
   margin-bottom: 10px;
   height: 400px;
-  border: 3px solid yellow;
-
+  #border: 3px solid yellow;
 }
