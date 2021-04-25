@@ -1,0 +1,64 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body {
+  margin: 0;
+  padding: 10px 5% 10px 5%;
+  background-image: url(images/background_main.jpg);
+  background-color: grey;
+}
+.header{
+
+  height: 50px;
+
+  margin: 10px 0% 10px 0%;
+  padding: 10px 5% 10px 5%;
+  border: 3px solid blue;
+	background-color: #red;
+}
+.footer{
+  height: 150px;
+
+  margin: 10px 0% 10px 0%;
+  padding: 10px 5% 10px 5%;
+  border: 3px solid blue;
+	background-color: black;
+}
+.logo{
+  background-position: left;
+  border: 3px solid grey;
+  width: 400px;
+  height: 150px;
+}
+.wrapper{
+
+  #height: 800px;
+
+  opacity: 0.8;
+  margin: 10px 0% 10px 0%;
+  padding: 10px 5% 10px 5%;
+  border: 3px solid blue;
+	background-color: black;
+}
+.box_about{
+
+  margin-bottom: 10px;
+  height: 400px;
+  border: 3px solid yellow;
+
+}
+.box_press{
+
+  margin-bottom: 10px;
+  height: 400px;
+  border: 3px solid yellow;
+
+}
+.box_contactus{
+
+  margin-bottom: 10px;
+  height: 400px;
+  border: 3px solid yellow;
+
+}
