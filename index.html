@@ -42,13 +42,19 @@
 				If you have any questions, send us a message
 			</p>
 			<div class="form_contactus">
-				<form>
-					Your Name <input type="text" name="fmail" id="fmail"><br><br>
-					Your Email <input type="text" name="email"id="email"> <br><br>
+
+				<form method="get">
+					<fieldset><legend>Feedback</legend>
+					Your Name <input type="text" name="fmail" id="fmail" size=""><br><br>
+					Your Email <input type="text" name="email"id="email" size=""> <br><br>
 					Message <br><textarea name="comments" id="comments" cols="50" rows="6"> Введите свои комментарии здесь</textarea>
 					<input style="margin-top: 10px" type="submit" value="Send Message">
-					<input style="margin-top: 10px" type="submit" value="Reset">
+					<input style="margin-top: 10px" type="reset" value="Reset">
+
+					<input type="hidden" name="sendto" id="sendto" value="chobussuboch@gmail.com">
+				</fieldset>
 				</form>
+
 			</div>
 		</div>
 	</div>
