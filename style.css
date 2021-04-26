@@ -137,8 +137,9 @@ body {
   color: yellow;
 }
 .form_contactus{
-  color: white;
-  margin: 30px 35% 10px 35%;
+
+	color: white;
+  margin: 30px 29% 10px 30%;
   padding: 10px 1% 10px 1%;
   #border: 3px solid gray;
 	#background-color: red;
