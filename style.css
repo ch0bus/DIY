@@ -272,7 +272,26 @@ body {
 	background-position: center center;
 }
 
-@media (max-width: 1500px){
+@media screen and (min-width: 350px) and (max-width: 1500px){
+	.header{
+	 height: 100%;
+	 margin: 10px 0% 10px 0%;
+	 padding: 10px 5% 10px 5%;
+	 border: 3px solid #808080;
+ }
+ .header ul {
+	margin: 10px 0px 0px 0px;
+ 	padding: 0px 0px 0px 0px;
+ 	list-style: none;
+ 	text-align: center;
+ }
+ .header li {
+	 border: -1px solid blue;
+	 margin-left: 50px;
+	 line-height: 50px;
+	 display: block;
+ }
+
 	*{
 		margin: 0 auto;
 		padding: 0 auto;
@@ -292,19 +311,6 @@ body {
 	}
 	.header a:active {
 		border-bottom: 4px solid yellow;
-	}
-	.header ul {
-		border: -1px solid blue;
-		margin-left: 0px;
-		padding-left: 0px;
-		list-style: none;
-		text-align: right;
-	}
-	.header li {
-		border: -1px solid red;
-		margin-left: 50px;
-		line-height: 50px;
-		display: inline-block;
 	}
 
 	.box_press a {
@@ -369,14 +375,7 @@ body {
 		background-attachment: fixed;
 
 	}
-	.header{
 
-	  height: 50px;
-
-	  margin: 10px 0% 10px 0%;
-	  padding: 10px 5% 10px 5%;
-	  border: 3px solid gray;
-	}
 	.footer{
 #	  height: 200px;
 		opacity: 0.3;
